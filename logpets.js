@@ -62,6 +62,14 @@ class Log{
                     '   /_\\     ]___\\\n'+
                     '  (___)');
     }
+
+    static dog(){
+        console.log('          __\n'+
+                    ' \\ ______/ V`-,\n'+
+                    '  }        /~~\n'+
+                    " /_)^ --,r'\n"+
+                    '|b      |b\n');
+    }
 }
 
 module.exports = Log

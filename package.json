@@ -1,8 +1,8 @@
 {
   "name": "log.pets",
-  "version": "0.0.11",
+  "version": "0.0.14",
   "description": "Cute animals for your console!",
-  "main": "cat.js",
+  "main": "logpets.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -4,7 +4,7 @@ Cute animals for your console!
 Usage:
 
 ```js
-var log = require('log.pets');
+var Log = require('log.pets');
 
 //log an cat in cmd
 Log.cat()
@@ -13,6 +13,14 @@ Log.cat()
 //   _'-`-'     )\
 //  (6--\ |--\ (`.`-.
 //      --'  --'  ``-'
+
+//log an dog in cmd
+Log.dog()
+//           __
+//  \ ______/ V`-,
+//   }        /~~
+//  /_)^ --,r'
+// |b      |b
 
 //log an penguin in cmd
 Log.penguin()
@@ -72,6 +80,10 @@ Log.unicorn()
 ```
 
 ## Release History
+* 0.0.14
+    * Dog added
+* 0.0.13
+    * Emergency fix (wrong config in package.json)
 * 0.0.11
     * Unicorn added
 * 0.0.10

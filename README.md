@@ -53,6 +53,17 @@ Log.cow()
 //    |//YY \|/
 //    |||   |||
 
+//log an bunny in cmd
+Log.bunny()
+//            /\ /|
+//           |||| |
+//            \ | \
+//        _ _ /  @ @
+//      /    \   =>X<=
+//    /|      |   /
+//    \|     /__| |
+//      \_____\ \__\
+
 //log an unicorn in cmd
 Log.unicorn()
 //                                /
@@ -80,6 +91,8 @@ Log.unicorn()
 ```
 
 ## Release History
+* 0.0.15
+    * Bunny added
 * 0.0.14
     * Dog added
 * 0.0.13

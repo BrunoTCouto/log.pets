@@ -82,6 +82,14 @@ class Log{
                     '     \\_____\\ \\__\\')
     }
 
+    static giraffe(){
+        console.log('    /)/)\n'+
+                    '   ( ..\\\n'+
+                    "   /'-._)\n"+
+                    '  /#/\n'+
+                    ' /#/')
+    }
+
     static nyan() {
 
         var frame1 = () => {

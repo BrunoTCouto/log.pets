@@ -64,6 +64,14 @@ Log.bunny()
 //    \|     /__| |
 //      \_____\ \__\
 
+//log an giraffe in cmd
+Log.giraffe()
+//     /)/)
+//    ( ..\     
+//    /'-._)   
+//   /#/       
+//  /#/
+
 //log an unicorn in cmd
 Log.unicorn()
 //                                /
@@ -101,6 +109,8 @@ Log.nyan();
 ![Demo](https://media.giphy.com/media/l0HUbJhbCScdMLSOA/giphy.gif)
 
 ## Release History
+* 0.0.20
+    * Giraffe added
 * 0.0.16
     * Nyan cat animation added
 * 0.0.15

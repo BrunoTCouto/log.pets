@@ -1,6 +1,6 @@
 {
   "name": "log.pets",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Cute animals for your console!",
   "main": "logpets.js",
   "scripts": {
@@ -19,8 +19,12 @@
   "homepage": "https://github.com/BrunoTCouto/log.pets#readme",
   "keywords": [
     "LOG",
+    "log",
     "PETS",
+    "pets",
     "CMD",
-    "CLI"
+    "cmd",
+    "CLI",
+    "cli"
   ]
 }

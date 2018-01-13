@@ -81,6 +81,60 @@ class Log{
                     '   \\|     /__| |\n'+
                     '     \\_____\\ \\__\\')
     }
+
+    static nyan() {
+
+        var frame1 = () => {
+            return new Promise((resolve) => {
+                process.stdout.write("\x1b[31m"+'**********');process.stdout.write("\x1b[37m"+',------,\n');
+                process.stdout.write("\x1b[33m"+'#########');process.stdout.write("\x1b[37m"+'v|   /\\_/\\\n' );
+                process.stdout.write("\x1b[36m"+'==========');process.stdout.write("\x1b[37m"+'|__( ^ W^)\n');
+                process.stdout.write('        ');process.stdout.write("\x1b[37m"+'    "  "');
+                setTimeout(() => {
+                    process.stdout.write('\x1Bc')
+                    resolve()
+                }, 70);
+            })
+        }
+
+        var frame2 = () => {
+            return new Promise((resolve) => {
+                process.stdout.write("\x1b[36m"+'==========');process.stdout.write("\x1b[37m"+',------,\n');
+                process.stdout.write("\x1b[31m"+'*********');process.stdout.write("\x1b[37m"+'~|    /\\_/\\\n');
+                process.stdout.write("\x1b[33m"+'##########');process.stdout.write("\x1b[37m"+'|___( ^ W^)\n');
+                process.stdout.write("        ");process.stdout.write('     "  "');
+                setTimeout(() => {
+                    process.stdout.write('\x1Bc')
+                    resolve()
+                }, 70);
+            })
+        }
+
+        var frame3 = () => {
+            return new Promise((resolve) => {
+                process.stdout.write("\x1b[33m"+'#########');process.stdout.write("\x1b[37m"+' ,------,\n');
+                process.stdout.write("\x1b[36m"+'=========');process.stdout.write("\x1b[37m"+'^|    /\\_/\\\n');
+                process.stdout.write("\x1b[31m"+'*********');process.stdout.write("\x1b[37m"+' |___( ^ W^)\n');
+                process.stdout.write("        ");process.stdout.write('      "  "');
+                setTimeout(() => {
+                    process.stdout.write('\x1Bc')
+                    resolve()
+                }, 70);
+            })
+        }
+
+        var fun = () => {
+            frame1().then(() => {
+                frame2().then(() => {
+                    frame3().then(() => {
+                        frame2().then(fun)
+                    })
+                })
+            })
+        }
+
+        fun()
+    }
 }
 
 module.exports = Log

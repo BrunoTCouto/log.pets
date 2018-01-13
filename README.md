@@ -88,9 +88,21 @@ Log.unicorn()
 //    /_\     ]___\
 //   (___)
 
+
+
+//print nyan cat animation in cmd
+// ATTENTION NYAN CAT STILL IN BETA... FOR EXIT FROM CMD USE Ctrl^C
+Log.nyan();
+// **********,------,
+// #########v|   /\_/\
+// ==========|__( ^ W^)
+//             "  "
 ```
+![Demo](https://media.giphy.com/media/l0HUbJhbCScdMLSOA/giphy.gif)
 
 ## Release History
+* 0.0.16
+    * Nyan cat animation added
 * 0.0.15
     * Bunny added
 * 0.0.14

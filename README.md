@@ -90,6 +90,13 @@ Log.lion()
 //  \  { v }  /
 //    ~ `v' ~
 
+//log an owl in cmd
+Log.owl()
+//    .___,   
+// ___('v')___
+// `"-\._./-"'
+//     ^ ^  
+
 //log an mini zoo with dynamic text sign in cmd
 // *Maximum number of characters per line:
 //      * First line: MAX 17 Characters
@@ -142,6 +149,8 @@ Log.nyan();
 ![Demo](https://media.giphy.com/media/l0HUbJhbCScdMLSOA/giphy.gif)
 
 ## Release History
+* 0.0.24
+    * Owl added
 * 0.0.23
     * Lion added
 * 0.0.21

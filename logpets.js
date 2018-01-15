@@ -98,6 +98,15 @@ class Log{
                     "   ~ `v' ~");
     }
 
+    static owl(){
+        console.log('   .___,   \n'+
+                    "___('v')___\n"+
+                    '`\"-\\._./-\"\'\n'+
+                    '    ^ ^  ');
+    }
+
+    
+
     static zoo(first = '                 ', second = '                  ' ,third = '                  '){
         
         if(first.length<=17 && second.length<=18 && third.length<=18){

@@ -1,13 +1,13 @@
 {
   "name": "log.pets",
-  "version": "0.0.20",
+  "version": "0.0.23",
   "description": "Cute animals for your console!",
   "main": "logpets.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "brutom",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {},
   "repository": {
     "type": "git",
@@ -25,6 +25,8 @@
     "CMD",
     "cmd",
     "CLI",
-    "cli"
+    "cli",
+    "SIGN",
+    "sign"
   ]
 }

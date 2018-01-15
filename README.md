@@ -1,7 +1,17 @@
+#Log.Pets
+>Cute animals for your console!
+
 Cute animals for your console!
 
+## Installation
 
-Usage:
+OS X & Linux & Windows:
+
+```sh
+npm install log.pets --save
+```
+
+## Usage example
 
 ```js
 var Log = require('log.pets');
@@ -72,6 +82,29 @@ Log.giraffe()
 //   /#/       
 //  /#/
 
+//log an lion in cmd
+Log.lion()
+//    .~ ~ ~.
+//  (  o,,,o  )
+// (   ). .(   )
+//  \  { v }  /
+//    ~ `v' ~
+
+//log an mini zoo with dynamic text sign in cmd
+// *Maximum number of characters per line:
+//      * First line: MAX 17 Characters
+//      * Second line: MAX 18 Characters
+//      * Third Line: MAX 18 Characters
+Log.zoo('First line','Second line','Third line')
+//                 .-----------------._,,
+//                 |First line       (_")=
+//                 |Second line       |||                __
+//                 |Third line        ||#\_____       .-/  \
+//          ssgg   |------------------|\# # # #\    .''  ..'----,_
+//     ____SG ..]  |       |/         | \##_#_#/\ =:.'-\         )\
+//  ,-( _   SS(_9)_|      _(")        | |/|/\|\|   ::   |  ,_   /  `
+// / (_____;-.____;;    o(_,\\        | I I  I I    `   [|_/\\_]
+
 //log an unicorn in cmd
 Log.unicorn()
 //                                /
@@ -109,6 +142,10 @@ Log.nyan();
 ![Demo](https://media.giphy.com/media/l0HUbJhbCScdMLSOA/giphy.gif)
 
 ## Release History
+* 0.0.23
+    * Lion added
+* 0.0.21
+    * Zoo with dynamic text sign
 * 0.0.20
     * Giraffe added
 * 0.0.16
@@ -134,4 +171,19 @@ Log.nyan();
 * 0.0.1
     * First release
 
+## Meta
+
+Bruno Couto 2018
+
+Distributed under the MIT license.
+
+<!-- [https://github.com/yourname/github-link](https://github.com/BrunoTCouto/ecmd) -->
+
+## Contributing
+
+1. Fork it (<https://github.com/BrunoTCouto/log.pets/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
 
